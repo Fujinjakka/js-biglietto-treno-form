@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Stampa Biglietto</title>
+  </head>
+  <body>
+    <div id="main_container">
+      <div class="container">
+        <div class="element">
+          <label for="">Nome:</label>
+          <input id="nome" type="text" name="name" value="" placeholder="Nome">
+        </div>
+
+
+        <div class="element">
+          <label for="">Cognome:</label>
+          <input id="cognome" type="text" name="" value="" placeholder="Cognome">
+        </div>
+
+        <div class="element">
+          <label for="">Numero Km:</label>
+          <input id="kilometri" type="number" name="" value="" placeholder="kilometri">
+        </div>
+
+        <div class="element">
+          <label for="">Età:</label>
+          <select id="eta" class="" name="">
+            <option value="minorenne">Minorenne</option>
+            <option value="maggiorenne">Maggiorenne</option>
+            <option value="over65">Over 65</option>
+          </select>
+        </div>
+
+        <div class="element">
+          <button type="button" name="button" onclick="activebutton()">Stampa</button>
+          <button type="button" name="button" onclick="activebutton2()">Annulla</button>
+        </div>
+
+      </div>
+      <div class="container">
+        <div id="stampa" class="hidden">
+          <div id="stampa_nome" class="stampa_biglietto"></div>
+          <div id="stampa_cognome" class="stampa_biglietto"></div>
+          <div id="stampa_codice" class="stampa_biglietto"></div>
+          <div id="stampa_carrozza" class="stampa_biglietto"></div>
+          <div id="stampa_prezzo" class="stampa_biglietto"></div>
+          <div id="stampa_sconto" class="stampa_biglietto"></div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+  <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

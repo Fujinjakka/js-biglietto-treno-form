@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#main_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: pink;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 1200px;
+  background-color: lightgreen;
+  border: 1px solid black;
+}
+.subcontainer {
+  height: 100%;
+  width: 50%;
+  border: 1px solid black;
+  background-color: lightblue;
+}
+.hidden {
+  opacity: 0;
+  transition: 0.5s;
+}
+.show {
+  opacity: 1;
+  transition: 0.5s;
+}
+.stampa_biglietto {
+  border: 1px solid black;
+}
